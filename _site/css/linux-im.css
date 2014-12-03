@@ -76,6 +76,7 @@ blockquote {
     border-left: 3px dashed #abc;
     background-color: #eee;
     margin-left: 0px;
+    margin-right: 0px;
 }
 
 .footer {
