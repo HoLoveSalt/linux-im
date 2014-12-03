@@ -1,0 +1,103 @@
+body {
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+.site {
+    font-size: 110%;
+    text-align: justify;
+    width: 728px;
+    margin: 3em auto 2em auto;
+    line-height: 1.5em;
+    padding-top: 20px;
+}
+
+.title a{
+    color: #CA4110;
+    text-decoration: none;
+    font-size: 42px;
+}
+
+.title small {
+    color: #C0C0C0;
+}
+
+.menu {
+    padding-top: 10px;
+}
+
+a {
+    color: #0050AA;
+ }
+
+.post-list-ul li {
+    line-height: 1.75em;
+}
+
+.post-list-ul a:link {
+    text-decoration: none;
+}
+
+.post-list-ul a:hover {
+    color: #0F3351;
+}
+
+.post-list-ul {
+    list-style-type: none;
+    margin-bottom: 2em;
+    padding: 0;
+}
+
+.post-list-ul>li span {
+    color: #aaa;
+    font-size: 80%;
+}
+
+
+/*
+ * POST Main
+ */
+#post {
+    padding-top: 20px;
+}
+
+#post h1,h2,h3 {
+    font-size: 110%;
+}
+
+.date {
+    color: #aaa;
+    font-size: 80%;
+}
+
+blockquote {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 3px dashed #abc;
+    background-color: #eee;
+    margin-left: 0px;
+}
+
+.footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden;
+}
+
+.contact {
+    float: left;
+    margin-right: 3em;
+    color: #333;
+}
+
+.contact p {
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.contact a {
+    color: #8B4E4E;
+    text-decoration: none;
+}
