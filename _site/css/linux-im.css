@@ -52,7 +52,7 @@ a {
 
 .post-list-ul {
     list-style-type: none;
-    margin-bottom: 2em;
+    margin-bottom: -15px;
     padding: 0;
 }
 
