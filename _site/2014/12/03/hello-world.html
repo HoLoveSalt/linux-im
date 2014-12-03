@@ -65,18 +65,17 @@ or formatting instructions.</p>
 
 <p>You need Gulp installed globally:</p>
 
-<p><code>bash
+<p><code>
 $ npm i -g gulp
 </code></p>
 
-<p><code>sh
-$ git clone [git-repo-url] dillinger
+<pre><code>$ git clone [git-repo-url] dillinger
 $ cd dillinger
 $ npm i -d
 $ mkdir -p public/files/{md,html,pdf}
 $ gulp build --prod
 $ NODE_ENV=production node app
-</code></p>
+</code></pre>
 
 <h3 id="plugins">Plugins</h3>
 
@@ -108,17 +107,17 @@ Make a change in your file and instantanously see your updates!</p>
 <p>Open your favorite Terminal and run these commands.</p>
 
 <p>First Tab:
-<code>sh
+<code>
 $ node app
 </code></p>
 
 <p>Second Tab:
-<code>sh
+<code>
 $ gulp watch
 </code></p>
 
 <p>(optional) Third:
-<code>sh
+<code>
 $ karma start
 </code></p>
 

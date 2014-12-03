@@ -11,9 +11,9 @@ title: Hello, world.
 
 Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
+- Type some Markdown on the left
+- See HTML in the right
+- Magic
 
 Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site] [1]:
 
@@ -49,18 +49,17 @@ Dillinger uses a number of open source projects to work properly:
 You need Gulp installed globally:
 
 
-```bash
+```
 $ npm i -g gulp
 ```
 
-```sh
-$ git clone [git-repo-url] dillinger
-$ cd dillinger
-$ npm i -d
-$ mkdir -p public/files/{md,html,pdf}
-$ gulp build --prod
-$ NODE_ENV=production node app
-```
+    $ git clone [git-repo-url] dillinger
+    $ cd dillinger
+    $ npm i -d
+    $ mkdir -p public/files/{md,html,pdf}
+    $ gulp build --prod
+    $ NODE_ENV=production node app
+
 
 ### Plugins
 
@@ -88,17 +87,17 @@ Make a change in your file and instantanously see your updates!
 Open your favorite Terminal and run these commands.
 
 First Tab:
-```sh
+```
 $ node app
 ```
 
 Second Tab:
-```sh
+```
 $ gulp watch
 ```
 
 (optional) Third:
-```sh
+```
 $ karma start
 ```
 
