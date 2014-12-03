@@ -29,11 +29,11 @@ a {
     color: #0050AA;
  }
 
-a:link {
+#post a:link {
     text-decoration: none;
 }
 
-a:hover {
+#post a:hover {
     color: #0F3351;
 }
 
