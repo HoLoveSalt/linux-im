@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello, world.
+title: The markdown test results.
 ---
 
 {{ page.title }}
