@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The security risk of "google reCAPTCHA"
+title: The security risk of "Google reCAPTCHA"
 ---
 
 {{ page.title }}
@@ -21,7 +21,7 @@ title: The security risk of "google reCAPTCHA"
 
 所以不少的社区论坛使用人工识别图片选择文字答案作为验证码的方式来代替传统的验证码。
 
-随后GG推出了**```reCAPTCHA```**项目。
+随后Google推出了**```reCAPTCHA```**项目。
 
 ![demo](http://1.hackersoul.sinaapp.com/img/media/Recaptcha_anchorxxxxxx2x.gif)
 
