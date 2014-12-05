@@ -14,7 +14,7 @@ title: The security risk of "Google reCAPTCHA"
 
 文章开始讲述传统验证码的方式令“真正人类”头疼，且研究表明现在的人工智能技术已经能够解决99.8%的验证码，因此扭曲的文本验证方式可能不在是一个可靠的方法。
 
-![gg_old_captcha](http://1.hackersoul.sinaapp.com/img/media/gg_old_captcha.jpg)
+![gg_old_captcha](/images/gg_old_captcha.jpg)
 
 - 头疼的验证码输入
 - 不可靠的文字验证码
@@ -23,7 +23,7 @@ title: The security risk of "Google reCAPTCHA"
 
 随后Google推出了**```reCAPTCHA```**项目。
 
-![demo](http://1.hackersoul.sinaapp.com/img/media/Recaptcha_anchorxxxxxx2x.gif)
+![demo](/images/Recaptcha_anchorxxxxxx2x.gif)
 
     reCAPTCHA被gg称作没有验证码的验证码（"No CAPTCHA reCAPTCHA"），
     他让用户只需要简单的勾选就可以确认你是真实用户而非恶意机器人，操作非常简单。
@@ -32,10 +32,10 @@ title: The security risk of "Google reCAPTCHA"
 Vinay Shet或者reCAPTCHA团队也考虑到这种判断方法可能会存在误报情况，所以将验证方式进行了稳固。
 
  1. 传统验证码并未消失，还是会有提示输入传统验证码的方法来检测：
- ![gg_old_captcha](http://1.hackersoul.sinaapp.com/img/media/CAPTCHA_dsahkdhkusa213dsza7i21n.png)
+ ![gg_old_captcha](/images/CAPTCHA_dsahkdhkusa213dsza7i21n.png)
  
  2. 展示一张图片，让用户选择他们下面提供的图片中哪张是符合图片的：
- ![gg_old_captcha](http://1.hackersoul.sinaapp.com/img/media/turkey_captcha2.png)
+ ![gg_old_captcha](/images/turkey_captcha2.png)
  3. 好人/坏人的判断算法
  
 
@@ -55,11 +55,11 @@ reCAPTCHA并未详细的说明这个新的验证码API算法的具体情况，�
 
  - [ClickJacking点击劫持攻击注册](http://1.hackersoul.sinaapp.com/payload/no_captcha_clickjacking.html)
 
-![demo_1](http://1.hackersoul.sinaapp.com/img/media/69DFB6AC-8075-4F45-AA00-031E6F0F084E.png)
+![demo_1](/images/69DFB6AC-8075-4F45-AA00-031E6F0F084E.png)
 
 等待过后你将跳转到注册成功的页面：
 
-![demo_2](http://1.hackersoul.sinaapp.com/img/media/1A61E266-8B1B-4BF1-813A-536B6FB09B7B.png)
+![demo_2](/images/1A61E266-8B1B-4BF1-813A-536B6FB09B7B.png)
 
 {% highlight html %}
 其中测试在古董浏览器上是无法正常进行的，另外需要提一下页面中需要添加
@@ -69,7 +69,7 @@ reCAPTCHA并未详细的说明这个新的验证码API算法的具体情况，�
 
 > 需要注意的是，reCAPTCHA会在一段时间停滞不操作页面的情况下摧毁Session：
 > 
-![alert_session](http://1.hackersoul.sinaapp.com/img/media/AEAA2D26-2AA0-4AA4-9BF7-1E8071A06F53.png)
+![alert_session](/images/AEAA2D26-2AA0-4AA4-9BF7-1E8071A06F53.png)
 
 #### POC
 

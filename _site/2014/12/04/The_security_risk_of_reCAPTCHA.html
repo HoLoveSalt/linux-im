@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>The security risk of "google reCAPTCHA" - Linux.im</title>
+    <title>The security risk of "Google reCAPTCHA" - Linux.im</title>
     <meta name="description" content="Hacking for fun."/>
     <link rel="stylesheet" href="/css/linux-im.css" type="text/css" />
     <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
@@ -15,7 +15,7 @@
 
       <div class="post-content">
         <div id="post">
-    <h1 id="the-security-risk-of-google-recaptcha">The security risk of “google reCAPTCHA”</h1>
+    <h1 id="the-security-risk-of-google-recaptcha">The security risk of “Google reCAPTCHA”</h1>
 <p class="date">04 Dec 2014 - evi1m0</p>
 
 <h4 id="recaptcha-indexhttpwwwgooglecomrecaptchaintro">reCAPTCHA (<a href="http://www.google.com/recaptcha/intro/">Index</a>)</h4>
@@ -26,7 +26,7 @@
 
 <p>文章开始讲述传统验证码的方式令“真正人类”头疼，且研究表明现在的人工智能技术已经能够解决99.8%的验证码，因此扭曲的文本验证方式可能不在是一个可靠的方法。</p>
 
-<p><img src="http://1.hackersoul.sinaapp.com/img/media/gg_old_captcha.jpg" alt="gg_old_captcha" /></p>
+<p><img src="/images/gg_old_captcha.jpg" alt="gg_old_captcha" /></p>
 
 <ul>
   <li>头疼的验证码输入</li>
@@ -35,9 +35,9 @@
 
 <p>所以不少的社区论坛使用人工识别图片选择文字答案作为验证码的方式来代替传统的验证码。</p>
 
-<p>随后GG推出了<strong><code>reCAPTCHA</code></strong>项目。</p>
+<p>随后Google推出了<strong><code>reCAPTCHA</code></strong>项目。</p>
 
-<p><img src="http://1.hackersoul.sinaapp.com/img/media/Recaptcha_anchorxxxxxx2x.gif" alt="demo" /></p>
+<p><img src="/images/Recaptcha_anchorxxxxxx2x.gif" alt="demo" /></p>
 
 <pre><code>reCAPTCHA被gg称作没有验证码的验证码（"No CAPTCHA reCAPTCHA"），
 他让用户只需要简单的勾选就可以确认你是真实用户而非恶意机器人，操作非常简单。
@@ -49,10 +49,10 @@
 <ol>
   <li>
     <p>传统验证码并未消失，还是会有提示输入传统验证码的方法来检测：
- <img src="http://1.hackersoul.sinaapp.com/img/media/CAPTCHA_dsahkdhkusa213dsza7i21n.png" alt="gg_old_captcha" /></p>
+ <img src="/images/CAPTCHA_dsahkdhkusa213dsza7i21n.png" alt="gg_old_captcha" /></p>
   </li>
   <li>展示一张图片，让用户选择他们下面提供的图片中哪张是符合图片的：
- <img src="http://1.hackersoul.sinaapp.com/img/media/turkey_captcha2.png" alt="gg_old_captcha" /></li>
+ <img src="/images/turkey_captcha2.png" alt="gg_old_captcha" /></li>
   <li>好人/坏人的判断算法</li>
 </ol>
 
@@ -78,11 +78,11 @@
   <li><a href="http://1.hackersoul.sinaapp.com/payload/no_captcha_clickjacking.html">ClickJacking点击劫持攻击注册</a></li>
 </ul>
 
-<p><img src="http://1.hackersoul.sinaapp.com/img/media/69DFB6AC-8075-4F45-AA00-031E6F0F084E.png" alt="demo_1" /></p>
+<p><img src="/images/69DFB6AC-8075-4F45-AA00-031E6F0F084E.png" alt="demo_1" /></p>
 
 <p>等待过后你将跳转到注册成功的页面：</p>
 
-<p><img src="http://1.hackersoul.sinaapp.com/img/media/1A61E266-8B1B-4BF1-813A-536B6FB09B7B.png" alt="demo_2" /></p>
+<p><img src="/images/1A61E266-8B1B-4BF1-813A-536B6FB09B7B.png" alt="demo_2" /></p>
 
 <div class="highlight"><pre><code class="language-html" data-lang="html">其中测试在古董浏览器上是无法正常进行的，另外需要提一下页面中需要添加
 <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;referrer&quot;</span> <span class="na">content=</span><span class="s">&quot;never&quot;</span><span class="nt">&gt;</span>
@@ -91,7 +91,7 @@
 <blockquote>
   <p>需要注意的是，reCAPTCHA会在一段时间停滞不操作页面的情况下摧毁Session：</p>
 
-  <p><img src="http://1.hackersoul.sinaapp.com/img/media/AEAA2D26-2AA0-4AA4-9BF7-1E8071A06F53.png" alt="alert_session" /></p>
+  <p><img src="/images/AEAA2D26-2AA0-4AA4-9BF7-1E8071A06F53.png" alt="alert_session" /></p>
 </blockquote>
 
 <h4 id="poc">POC</h4>
