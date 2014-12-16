@@ -35,3 +35,9 @@ title: BPG Image format
 #### 最后
 
 按DEMO来看压缩比确实有到不错的提升，但影响其发展的因素依然有很多。
+
+#### 2014-12-1:更新
+
+xooyoozoo编写了一个BPG图像的比较工具很有意思，源码：[https://github.com/xooyoozoo/yolo-octo-bugfixes/tree/gh-pages](https://github.com/xooyoozoo/yolo-octo-bugfixes/tree/gh-pages)
+
+在线使用地址：[http://xooyoozoo.github.io/yolo-octo-bugfixes/#soccer-players&webp=s&bpg=l](http://xooyoozoo.github.io/yolo-octo-bugfixes/#soccer-players&webp=s&bpg=l)
