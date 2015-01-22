@@ -2,6 +2,9 @@ body {
     font: 14px Helvetica, Arial, sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
 .site {
     font-size: 110%;
     text-align: justify;
