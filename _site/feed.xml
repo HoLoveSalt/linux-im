@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title></title>
+<description></description>  
+<link></link>
+<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+
+<item>
+<title>微拍APP漏洞 - 屌丝的从无到有</title>
+<pubDate>Thu, 22 Jan 2015 00:00:00 +0800</pubDate>
+<link>/2015/01/22/weipai-vulnerability.html</link>
+<guid isPermaLink="true">/2015/01/22/weipai-vulnerability.html</guid>
+</item>
+
+<item>
+<title>Django实现RSS订阅功能</title>
+<pubDate>Fri, 16 Jan 2015 00:00:00 +0800</pubDate>
+<link>/2015/01/16/django-rss.html</link>
+<guid isPermaLink="true">/2015/01/16/django-rss.html</guid>
+</item>
+
+<item>
+<title>Python Threadpool Interface Demo</title>
+<pubDate>Fri, 09 Jan 2015 00:00:00 +0800</pubDate>
+<link>/2015/01/09/threadpool_interface_note.html</link>
+<guid isPermaLink="true">/2015/01/09/threadpool_interface_note.html</guid>
+</item>
+
+<item>
+<title>Mongodb未授权访问漏洞之某主机泄露新浪微博accessToken</title>
+<pubDate>Thu, 18 Dec 2014 00:00:00 +0800</pubDate>
+<link>/2014/12/18/mongodb_unauthorized_access_vulnerability_sinaweibo_app_accessToken.html</link>
+<guid isPermaLink="true">/2014/12/18/mongodb_unauthorized_access_vulnerability_sinaweibo_app_accessToken.html</guid>
+</item>
+
+<item>
+<title>Mongodb unauthorized access vulnerability global probing report</title>
+<pubDate>Thu, 11 Dec 2014 00:00:00 +0800</pubDate>
+<link>/2014/12/11/mongodb_unauthorized_access_vulnerability_global_probing_report.html</link>
+<guid isPermaLink="true">/2014/12/11/mongodb_unauthorized_access_vulnerability_global_probing_report.html</guid>
+</item>
+
+<item>
+<title>微信公众号后台跨站漏洞 EXP (已修复)</title>
+<pubDate>Sun, 07 Dec 2014 00:00:00 +0800</pubDate>
+<link>/2014/12/07/mp_weixin_xss.html</link>
+<guid isPermaLink="true">/2014/12/07/mp_weixin_xss.html</guid>
+</item>
+
+<item>
+<title>BPG Image format</title>
+<pubDate>Sat, 06 Dec 2014 00:00:00 +0800</pubDate>
+<link>/2014/12/06/BPG_Image_format.html</link>
+<guid isPermaLink="true">/2014/12/06/BPG_Image_format.html</guid>
+</item>
+
+<item>
+<title>Github pages + Jekyll build a blog</title>
+<pubDate>Thu, 04 Dec 2014 00:00:00 +0800</pubDate>
+<link>/2014/12/04/blogging_with_jekyll.html</link>
+<guid isPermaLink="true">/2014/12/04/blogging_with_jekyll.html</guid>
+</item>
+
+<item>
+<title>The security risk of "Google reCAPTCHA"</title>
+<pubDate>Thu, 04 Dec 2014 00:00:00 +0800</pubDate>
+<link>/2014/12/04/The_security_risk_of_reCAPTCHA.html</link>
+<guid isPermaLink="true">/2014/12/04/The_security_risk_of_reCAPTCHA.html</guid>
+</item>
+
+<item>
+<title>Jinja2 2.0 /utils.py urlize vulnerability</title>
+<pubDate>Wed, 03 Dec 2014 00:00:00 +0800</pubDate>
+<link>/2014/12/03/jinja2_urlize_vul.html</link>
+<guid isPermaLink="true">/2014/12/03/jinja2_urlize_vul.html</guid>
+</item>
+
+<item>
+<title>Beebeeto Publish</title>
+<pubDate>Sun, 21 Sep 2014 00:00:00 +0800</pubDate>
+<link>/2014/09/21/beebeeto_com.html</link>
+<guid isPermaLink="true">/2014/09/21/beebeeto_com.html</guid>
+</item>
+
+</channel>
+</rss>
