@@ -1,14 +1,17 @@
 body {
-    font: 14px Helvetica, Arial, sans-serif;
+    /*font: 14px Helvetica, Arial, sans-serif;*/
+    font-family: "PT Serif",Georgia,Times,"Times New Roman","Songti SC","Hiragino Mincho ProN",serif;
+    background: #fff url('/images/furley-bg.png')
 }
 
 img {
   max-width: 100%;
 }
+
 .site {
     font-size: 110%;
     text-align: justify;
-    width: 728px;
+    width: 828px;
     margin: 3em auto 2em auto;
     line-height: 1.5em;
     padding-top: 20px;
@@ -34,6 +37,7 @@ a {
 
 #post a:link {
     text-decoration: none;
+    border-bottom: 1px dashed #1d8cbd;
 }
 
 #post a:hover {
@@ -70,36 +74,55 @@ a {
  */
 #post {
     padding-top: 20px;
+    margin-top: 30px;
+    background: #fff url('/images/light-wool-bg.png');
+    -webkit-box-shadow: 0 0 0.5em #e6e6e6 inset,0 0 0 1px #d4d4d4;
+    -moz-box-shadow: 0 0 0.5em #e6e6e6 inset,0 0 0 1px #d4d4d4;
+    box-shadow: 0 0 0.5em #e6e6e6 inset,0 0 0 1px #d4d4d4;
+    padding: 1.5em 3em;
+    position: relative;
+    -webkit-border-radius: 0.25em 0.25em 18em 18em/0.25em 0.25em 0.5em 0.5em;
+    -moz-border-radius: 0.25em 0.25em 18em 18em/0.25em 0.25em 0.5em 0.5em;
+    -ms-border-radius: 0.25em 0.25em 18em 18em/0.25em 0.25em 0.5em 0.5em;
+    -o-border-radius: 0.25em 0.25em 18em 18em/0.25em 0.25em 0.5em 0.5em;
+    border-radius: 0.25em 0.25em 18em 18em/0.25em 0.25em 0.5em 0.5em;
 }
 
 #post h1,h2,h3 {
-    font-size: 110%;
+    font-size: 140%;
 }
 
 .date {
     color: #aaa;
     font-size: 80%;
+    border-bottom: 1px #F2F2F2 solid;
+    padding-bottom: 20px;
 }
 
 blockquote {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-left: 3px dashed #abc;
-    background-color: #eee;
-    margin-left: 0px;
-    margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: px;
+  padding-left: 20px;
+  border-left: 3px dashed #DDDEDF;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* standard */
 #post pre {
   font-family: Consolas, "DejaVu Sans Mono", "Lucida Console", Monaco, Andale Mono, "MS Gothic", monospace;
   font-size: 13px;
-  background-color: #333;
+  background-color: #ffc;
   padding: 0 .4em;
   overflow: auto;
   margin: 1em 0;
   padding: 5px 0 5px 10px;
+  border: 1px #BBB solid;
+}
+
+#post pre:hover {
+  border: 1px #383838 solid;
 }
 
 #post code {
@@ -113,12 +136,10 @@ blockquote {
 
 #post pre code {
   font-family: Consolas, "DejaVu Sans Mono", "Lucida Console", Monaco, Andale Mono, "MS Gothic", monospace;
-  color: white;
-  /* background-color: #eef; */
-  /* background-color: #f8f8f8; */
+  color: #000;
+  background-color: #ffc;
   padding: 0 .2em;
   border: none;
-  background-color: #333;
   white-space: pre;
 }
 
