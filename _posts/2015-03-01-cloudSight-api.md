@@ -12,7 +12,7 @@ title: 使用CloudSight API进行图像识别的Python脚本
 
 \> python cloudsight.py http://url/test.jpg
 
-    #!/usr/bin/evn python
+    #!/usr/bin/env python
     # coding=utf8
     # author=evi1m0@2015<ff0000team>
 
