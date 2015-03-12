@@ -7,6 +7,13 @@
 <atom:link href="http://linux.im/feed.xml" rel="self" type="application/rss+xml" />
 
 <item>
+<title>Search Registration Version 1.0</title>
+<pubDate>Thu, 12 Mar 2015 00:00:00 +0800</pubDate>
+<link>http://linux.im/2015/03/12/Search-Registration.html</link>
+<guid isPermaLink="true">http://linux.im/2015/03/12/Search-Registration.html</guid>
+</item>
+
+<item>
 <title>使用CloudSight API进行图像识别的Python脚本</title>
 <pubDate>Sun, 01 Mar 2015 00:00:00 +0800</pubDate>
 <link>http://linux.im/2015/03/01/cloudSight-api.html</link>
