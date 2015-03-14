@@ -1,7 +1,5 @@
 body {
-    /*font: 14px Helvetica, Arial, sans-serif;*/
     font-family: "PT Serif",Georgia,Times,"Times New Roman","Songti SC","Hiragino Mincho ProN",serif;
-    background: #fff url('/images/furley-bg.png')
 }
 
 img {
@@ -9,16 +7,14 @@ img {
 }
 
 .site {
-    font-size: 110%;
     text-align: justify;
-    width: 828px;
-    margin: 3em auto 2em auto;
+    width: 700px;
+    margin: 2em auto 1em auto;
     line-height: 1.5em;
-    padding-top: 20px;
 }
 
 .title a{
-    color: #CA4110;
+    color: #000000;
     text-decoration: none;
     font-size: 42px;
 }
@@ -32,7 +28,7 @@ img {
 }
 
 a {
-    color: #0050AA;
+    color: #000000;
  }
 
 #post a:link {
@@ -41,7 +37,7 @@ a {
 }
 
 #post a:hover {
-    color: #0F3351;
+  color: #0F3351;
 }
 
 
@@ -76,20 +72,18 @@ a {
  * POST Main
  */
 #post {
-    padding-top: 20px;
-    margin-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background: #fff url('/images/light-wool-bg.png');
-    -webkit-box-shadow: 0 0 0.5em #e6e6e6 inset,0 0 0 1px #d4d4d4;
-    -moz-box-shadow: 0 0 0.5em #e6e6e6 inset,0 0 0 1px #d4d4d4;
-    box-shadow: 0 0 0.5em #e6e6e6 inset,0 0 0 1px #d4d4d4;
     position: relative;
+    min-height: 300px;
+    color: #2f2f2f;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 30px;
 }
 
 #post h1,h2,h3 {
-    font-size: 130%;
+    font-size: 190%;
+    word-break: break-all;
+    line-height: 1.5;
 }
 
 .date {
@@ -103,17 +97,18 @@ blockquote {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: px;
-  padding-left: 20px;
-  border-left: 3px dashed #DDDEDF;
+  border: 1px dashed #DDDEDF;
   margin-left: 0px;
   margin-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* standard */
 #post pre {
   font-family: Consolas, "DejaVu Sans Mono", "Lucida Console", Monaco, Andale Mono, "MS Gothic", monospace;
   font-size: 13px;
-  background-color: #ffc;
+  background-color: #FFF;
   padding: 0 .4em;
   overflow: auto;
   margin: 1em 0;
@@ -137,7 +132,7 @@ blockquote {
 #post pre code {
   font-family: Consolas, "DejaVu Sans Mono", "Lucida Console", Monaco, Andale Mono, "MS Gothic", monospace;
   color: #000;
-  background-color: #ffc;
+  background-color: #FFF;
   padding: 0 .2em;
   border: none;
   white-space: pre;
@@ -146,25 +141,25 @@ blockquote {
 
 
 .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
+  font-size: 80%;
+  color: #666;
+  border-top: 2px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
 }
 
 .contact {
-    float: left;
-    margin-right: 3em;
-    color: #333;
+  float: left;
+  margin-right: 3em;
+  color: #333;
 }
 
 .contact p {
-    margin: 0px;
-    margin-top: 5px;
+  margin: 0px;
+  margin-top: 5px;
 }
 
 .contact a {
-    color: #8B4E4E;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }

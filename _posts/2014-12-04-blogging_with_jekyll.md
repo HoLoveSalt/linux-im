@@ -16,21 +16,20 @@ title: Github pages + Jekyll build a blog
  >   + 第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。
  >   + 第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。
 
-===================
 
-## Github pages
+#### Github pages
 Index: [https://pages.github.com/](https://pages.github.com/)
 
-## Jekyll
+#### Jekyll
 Index: [http://jekyllcn.com/](http://jekyllcn.com/)
 
-## 推荐阅读
+#### 推荐阅读
  - [搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
  - [Jekyll官方文档](http://jekyllcn.com/docs/home/)
  - [使用 GitHub, Jekyll 打造自己的免费独立博客](http://blog.csdn.net/on_1y/article/details/19259435)
  - [通过GitHub Pages建立个人站点（详细步骤）](http://www.cnblogs.com/purediy/archive/2013/03/07/2948892.html)
  
-## 开始搭建
+#### 开始搭建
 阅读完毕上面推荐文章之后基本上已经能够顺利的搭建一个属于自己的免费托管BLOG，所以这篇文章只是简单的记录搭建的简单流程，方便之后查阅，仅此而已。
 
 #### 0. 一些知识点
@@ -126,7 +125,7 @@ github规定只有在没有父节点的gh-pages分支中才会生成网页文件
 
 push成功后大约10分钟以后就能生效，访问地址在项目的Settings中可以查看，URL如：http://username.github.com/jekyll_demo/
 
-## 绑定域名
+#### 绑定域名
 在项目根目录创建CNAME文件，内容为域名，例如：linux.im
 
 然后将DNS创建A记录指向192.30.252.153，之前的204.232.175.78已经更换。
@@ -139,7 +138,7 @@ push成功后大约10分钟以后就能生效，访问地址在项目的Settings
 
 创建成功后，在项目的Settings里面是可以看到域名绑定状态的（如果发生异常）。
 
-## 扩展阅读
+#### 扩展阅读
 
 - 代码高亮
 
