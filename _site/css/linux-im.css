@@ -16,7 +16,7 @@ img {
 .title a{
     color: #000000;
     text-decoration: none;
-    font-size: 42px;
+    font-size: 50px;
 }
 
 .title small {
@@ -73,6 +73,7 @@ a {
  */
 #post {
     position: relative;
+    word-break: break-all;
     min-height: 300px;
     color: #2f2f2f;
     font-size: 17px;
@@ -81,14 +82,14 @@ a {
 }
 
 #post h1,h2,h3 {
-    font-size: 190%;
+    font-size: 50px;
     word-break: break-all;
     line-height: 1.5;
 }
 
 .date {
     color: #aaa;
-    font-size: 80%;
+    font-size: 15px;
     border-bottom: 1px #F2F2F2 solid;
     padding-bottom: 20px;
 }

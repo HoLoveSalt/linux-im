@@ -73,6 +73,7 @@ a {
  */
 #post {
     position: relative;
+    word-break: break-all;
     min-height: 300px;
     color: #2f2f2f;
     font-size: 17px;
