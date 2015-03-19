@@ -77,7 +77,7 @@ Sreg一共有三种查询方式：
 
 查询完成后，Sreg会返回给使用者一个精致的html页面供以查看。
     
-### Plugin (SDK)
+#### Plugin (SDK)
 
 编写网站注册查询插件非常简单，首先将想要进行编写的网站在```/plugins/```建立对应```website.json```文件。
 
@@ -129,7 +129,7 @@ Sreg一共有三种查询方式：
 
 
 
-### Category
+#### Category
 
  - IT
  - 名站
