@@ -3,10 +3,18 @@ body {
     font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
 }
 
+h4, h5 {
+  font-size: 130%;
+}
+
 img {
   max-width: 100%;
 }
 
+hr {
+  margin-top: 30px;
+  border: 1px #FAFAFA solid;
+}
 .site {
     text-align: justify;
     width: 700px;
@@ -82,7 +90,7 @@ a {
 }
 
 #post h1,h2,h3 {
-    font-size: 50px;
+    font-size: 35px;
     word-break: break-all;
     line-height: 1.5;
 }
