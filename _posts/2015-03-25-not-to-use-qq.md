@@ -8,7 +8,6 @@ title: 我为什么不再使用 QQ
 <p class="date">{{ page.date | date_to_string }} - evi1m0</p>
 
 <center>
-<br>
 <img src="http://ww4.sinaimg.cn/large/c334041bjw1eqial3gmkaj20ag06z0u8.jpg" />
 </center>
 
