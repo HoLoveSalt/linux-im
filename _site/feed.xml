@@ -7,6 +7,13 @@
 <atom:link href="http://linux.im/feed.xml" rel="self" type="application/rss+xml" />
 
 <item>
+<title>Python-Django Celery BUG01</title>
+<pubDate>Fri, 27 Mar 2015 00:00:00 +0800</pubDate>
+<link>http://linux.im/2015/03/27/Python-Django-Celery-BUG-01.html</link>
+<guid isPermaLink="true">http://linux.im/2015/03/27/Python-Django-Celery-BUG-01.html</guid>
+</item>
+
+<item>
 <title>我为什么不再使用 QQ</title>
 <pubDate>Wed, 25 Mar 2015 00:00:00 +0800</pubDate>
 <link>http://linux.im/2015/03/25/not-to-use-qq.html</link>
@@ -137,13 +144,6 @@
 <pubDate>Sun, 07 Dec 2014 00:00:00 +0800</pubDate>
 <link>http://linux.im/2014/12/07/mp_weixin_xss.html</link>
 <guid isPermaLink="true">http://linux.im/2014/12/07/mp_weixin_xss.html</guid>
-</item>
-
-<item>
-<title>BPG Image format</title>
-<pubDate>Sat, 06 Dec 2014 00:00:00 +0800</pubDate>
-<link>http://linux.im/2014/12/06/BPG_Image_format.html</link>
-<guid isPermaLink="true">http://linux.im/2014/12/06/BPG_Image_format.html</guid>
 </item>
 
 </channel>
