@@ -81,7 +81,15 @@
 
 <p>因为如果我们能够通过一些技巧将开始的 imageData 消灭的话就可以通过将 URL 中的 ID 设置为 imageData ，随后修改 URL 中的 type 参数，达到控制 imageData.name 的目的。</p>
 
-<p>这里利用 Chrome filter 的特性，之前 Sogili 在 Twitter 发表过的一个 Tip：使用 Chrome Filter 干掉对应的 js 代码，例如：<code>&amp;a=&lt;script&gt;var imageData = {name: "Oreo"}&lt;/script&gt;</code>会触发 Chrome 过滤器另源码中的对应代码段失效，所以我们利用这个特性就能够消灭掉初始化变量代码，从而覆盖 imageData.name：</p>
+<p>这里利用 Chrome filter 的特性，之前 Sogili 在 Twitter 发表过的一个 Tip：使用 Chrome Filter 干掉对应的 js 代码，例如：<code>&amp;a=&lt;script&gt;var imageData = {name: "Oreo"}&lt;/script&gt;</code>会触发 Chrome 过滤器另源码中的对应代码段失效，所以我们利用这个特性就能够消灭掉初始化变量代码，从而覆盖 imageData.name，但浏览器不会重新渲染页面 DOM ，所以 heige 提点使用 /? 绕过 secWrite.js 的 hook ，从而使 d.w 重现 DOM：</p>
+
+<p><a href="http://1de28830f09a4b1b.alictf.com/pet.php/?id=imageData&amp;type=">http://1de28830f09a4b1b.alictf.com/pet.php/?id=imageData&amp;type=</a></p>
+
+<p>这时会因为请求不到<code>/pet.php/secWrite.js</code>而绕过 hook，绕过 d.w 的钩子后我们继续。</p>
+
+<blockquote>
+  <p>F12 输入 imageData.name , document.body.outerHTML 可以看调试结果</p>
+</blockquote>
 
 <p><img src="http://ww4.sinaimg.cn/large/c334041bjw1eqmz6xpapuj213s0a4ad0.jpg" alt="http://ww4.sinaimg.cn/large/c334041bjw1eqmz6xpapuj213s0a4ad0.jpg" /></p>
 
