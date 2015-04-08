@@ -7,6 +7,13 @@
 <atom:link href="http://linux.im/feed.xml" rel="self" type="application/rss+xml" />
 
 <item>
+<title>跨站世界中有趣的复制与粘贴</title>
+<pubDate>Wed, 08 Apr 2015 00:00:00 +0800</pubDate>
+<link>http://linux.im/2015/04/08/Copy-and-Paste-in-XSS.html</link>
+<guid isPermaLink="true">http://linux.im/2015/04/08/Copy-and-Paste-in-XSS.html</guid>
+</item>
+
+<item>
 <title>Backdoor CTF 2015 - WriteUP</title>
 <pubDate>Fri, 03 Apr 2015 00:00:00 +0800</pubDate>
 <link>http://linux.im/2015/04/03/backdoor-ctf-2015-writeup.html</link>
@@ -137,13 +144,6 @@
 <pubDate>Fri, 09 Jan 2015 00:00:00 +0800</pubDate>
 <link>http://linux.im/2015/01/09/threadpool_interface_note.html</link>
 <guid isPermaLink="true">http://linux.im/2015/01/09/threadpool_interface_note.html</guid>
-</item>
-
-<item>
-<title>Mongodb未授权访问漏洞之某主机泄露新浪微博accessToken</title>
-<pubDate>Thu, 18 Dec 2014 00:00:00 +0800</pubDate>
-<link>http://linux.im/2014/12/18/mongodb_unauthorized_access_vulnerability_sinaweibo_app_accessToken.html</link>
-<guid isPermaLink="true">http://linux.im/2014/12/18/mongodb_unauthorized_access_vulnerability_sinaweibo_app_accessToken.html</guid>
 </item>
 
 </channel>
